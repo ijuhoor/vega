@@ -1,0 +1,7 @@
+./Vega.xcodeproj/xcuserdata
+./Vega.xcodeproj/xcuserdata/*
+
+.DS_Store
+
+*.xcuserdatad
+
