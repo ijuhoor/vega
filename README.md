@@ -1,6 +1,6 @@
 #Vega
 
-Vega is an cucumber style BDD testing tool relying on UIAutomation over Instruments. It supports only iOS. 
+Vega is a cucumber style BDD testing tool relying on UIAutomation over Instruments. It supports only iOS. 
 
 ## Quick Start
 
