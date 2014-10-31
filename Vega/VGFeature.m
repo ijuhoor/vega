@@ -20,11 +20,11 @@ NSString * const VGFeatureScenariosKey   = @"scenarios";
 {
   self = [super init];
   if (self) {
-    _title = featureDictionary[VGFeatureTitleKey];
-    _tags  = featureDictionary[VGFeatureTagsKey];
-    _description    = featureDictionary[VGFeatureDescriptionKey];
-    _backgroundData = featureDictionary[VGFeatureBackgroundKey];
-    _scenariosData  = featureDictionary[VGFeatureScenariosKey];
+    _title             = featureDictionary[VGFeatureTitleKey];
+    _tags              = featureDictionary[VGFeatureTagsKey];
+    _backgroundData    = featureDictionary[VGFeatureBackgroundKey];
+    _scenariosData     = featureDictionary[VGFeatureScenariosKey];
+    _descriptionString = featureDictionary[VGFeatureDescriptionKey];
   }
   return self;
 }

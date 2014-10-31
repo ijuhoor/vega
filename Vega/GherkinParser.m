@@ -187,7 +187,7 @@
 
 	[t setTokenizerState:t.wordState from:'!' to:'!'];
 	[t setTokenizerState:t.wordState from:'#' to:'/'];
-	[t setTokenizerState:t.wordState from:'<' to:'@'];
+	[t setTokenizerState:t.wordState from:'<' to:'?'];
 	[t setTokenizerState:t.wordState from:'[' to:'`'];
     
 	self.feature = [NSMutableDictionary dictionary];

@@ -11,7 +11,7 @@
 @interface VGFeature : NSObject
 
 @property (nonatomic, strong, readonly) NSString *title;
-@property (nonatomic, strong, readonly) NSString *description;
+@property (nonatomic, strong, readonly) NSString *descriptionString;
 @property (nonatomic, strong, readonly) NSArray  *tags;
 
 @property (nonatomic, strong, readonly) NSDictionary *backgroundData;

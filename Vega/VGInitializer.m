@@ -164,7 +164,7 @@
 
 - (void)createStepExampleAtPath:(NSString*)directoryPath error:(NSError**)error
 {
-  NSData *stepData = [[NSData alloc] initWithBase64EncodedString:b64FeatureFile
+  NSData *stepData = [[NSData alloc] initWithBase64EncodedString:b64StepFile
                                                          options:NSDataBase64DecodingIgnoreUnknownCharacters];
   
   NSString *stepFileName = [directoryPath stringByAppendingPathComponent:EXAMPLESTEPFILENAME];
